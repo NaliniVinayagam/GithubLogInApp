@@ -13,6 +13,12 @@
     tools:showIn="@layout/activity_main"
     tools:context="com.example.login.githubloginapp.MainActivity">
 
+    <EditText
+        android:id="@+id/etxt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email id.."/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
